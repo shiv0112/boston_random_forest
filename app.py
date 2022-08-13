@@ -44,14 +44,13 @@ def index():
             # predictions using the loaded model file
             
             prediction=loaded_model.predict(x_input_scaled)
+            prediction=np.exp(prediction)[0]
+
             # showing the prediction results in a UI
-            return render_template('results.html',prediction=np.exp(prediction)[0][0])
+            return render_template('results.html',prediction=np.round(prediction,1))
     except Exception as e:
             print('The Exception message is: ',e)
             return 'Something went wrong'
-    # return render_template('results.html')
-    else:
-            return render_template('index.html')
 
 if __name__ == "__main__":
     app.run(debug=True)

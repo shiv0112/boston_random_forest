@@ -1,83 +1,83 @@
 @import url(https://fonts.googleapis.com/css?family=Lato:100,300,400);
 
 input::-webkit-input-placeholder, textarea::-webkit-input-placeholder {
-  color: #EAE3D2;
+  color: #F5F5F5;
   font-size: 1.23em;
 }
 
 input:focus::-webkit-input-placeholder, textarea:focus::-webkit-input-placeholder {
-  color: #EAE3D2;
+  color: #F5F5F5;
 }
 
 input::-moz-placeholder, textarea::-moz-placeholder {
-  color: #EAE3D2;
+  color: #F5F5F5;
   font-size: 1.23em;
 }
 
 input:focus::-moz-placeholder, textarea:focus::-moz-placeholder {
-  color: #EAE3D2;
+  color: #F5F5F5;
 }
 
 input::placeholder, textarea::placeholder {
-  color: #EAE3D2;
+  color: #F5F5F5;
   font-size: 1.23em;
 }
 
 input:focus::placeholder, textarea::focus:placeholder {
-  color: #EAE3D2;
+  color: #F5F5F5;
 }
 
 input::-ms-placeholder, textarea::-ms-placeholder {
-  color: #EAE3D2;
+  color: #F5F5F5;
   font-size: 1.23em;
 }
 
 input:focus::-ms-placeholder, textarea:focus::-ms-placeholder {
-  color: #EAE3D2;
+  color: #F5F5F5;
 }
 
 /* on hover placeholder */
 
 input:hover::-webkit-input-placeholder, textarea:hover::-webkit-input-placeholder {
-  color: #607EAA;
+  color: #05595B;
   font-size: 1.23em;
 }
 
 input:hover:focus::-webkit-input-placeholder, textarea:hover:focus::-webkit-input-placeholder {
-  color: #EAE3D2;
+  color: #F5F5F5;
 }
 
 input:hover::-moz-placeholder, textarea:hover::-moz-placeholder {
-  color: #607EAA;
+  color: #05595B;
   font-size: 1.23em;
 }
 
 input:hover:focus::-moz-placeholder, textarea:hover:focus::-moz-placeholder {
-  color: #EAE3D2;
+  color: #F5F5F5;
 }
 
 input:hover::placeholder, textarea:hover::placeholder {
-  color: #607EAA;
+  color: #05595B;
   font-size: 1.23em;
 }
 
 input:hover:focus::placeholder, textarea:hover:focus::placeholder {
-  color: #EAE3D2;
+  color: #F5F5F5;
 }
 
 input:hover::placeholder, textarea:hover::placeholder {
-  color: #607EAA;
+  color: #05595B;
   font-size: 1.23em;
 }
 
 input:hover:focus::-ms-placeholder, textarea:hover::focus:-ms-placeholder {
-  color: #EAE3D2;
+  color: #F5F5F5;
 }
 
 body {
   font-family: 'Lato', sans-serif;
-  background: #607EAA;
-  color: #EAE3D2;
+  background: #05595B;
+  color: #F5F5F5;
 }
 
 header {
@@ -103,9 +103,9 @@ input {
   
   background: transparent;
   outline: none;
-  color: #EAE3D2;
+  color: #F5F5F5;
   
-  border: solid 2.5px #EAE3D2;
+  border: solid 2.5px #F5F5F5;
   border-bottom: none;
   
   transition: all 0.3s ease-in-out;
@@ -115,8 +115,8 @@ input {
 }
 
 input:hover {
-  background: #EAE3D2;
-  color: #607EAA;
+  background: #F5F5F5;
+  color: #05595B;
 }
 
 textarea {
@@ -133,7 +133,7 @@ textarea {
   font-family: 'Lato', sans-serif;
   font-size: 1.23em;
   
-  border: solid 2.5px #EAE3D2;
+  border: solid 2.5px #F5F5F5;
   
   transition: all 0.3s ease-in-out;
   -webkit-transition: all 0.3s ease-in-out;
@@ -142,8 +142,8 @@ textarea {
 }
 
 textarea:hover {
-  background: #EAE3D2;
-  color: #607EAA;
+  background: #F5F5F5;
+  color: #05595B;
 }
 
 #submit {
@@ -154,15 +154,15 @@ textarea:hover {
   
   font-family: 'Lato', sans-serif;
   font-size: 1.23em;
-  background-color: #1C3879;
-  color: #EAE3D2;
+  background-color: #3eabb7;
+  color: #F5F5F5;
   
   outline:none;
   cursor: pointer;
-  border: solid 2.5px #EAE3D2;
+  border: solid 2.5px #F5F5F5;
   border-top: none;
 }
 
 #submit:hover {
-  background-color: #61027c;
+  background-color: #062C30;
 }

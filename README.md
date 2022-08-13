@@ -1,13 +1,13 @@
-# boston_house_prediction
+# boston_random_forest
 
 Project Description 📄
 
-❄️ Built a linear regression model using scikit learn in boston data to
+❄️ Built a Random Forest Regressor model using scikit learn in boston data to
 predict 'Price' based on other dependent variable.
 
-#### Deployed Project Link: https://house-price-boston.herokuapp.com/
+#### Deployed Project Link: https://boston-random-forest.herokuapp.com/
 
-##### Jupyter Notebook: (https://github.com/shiv0112/boston_house_prediction/blob/master/notebook/Linear_reg.ipynb)
+##### Jupyter Notebook: (https://github.com/shiv0112/boston_random_forest/blob/master/notebooks/boston_rndm_forest.ipynb)
 
 ## Data:
 
@@ -35,24 +35,32 @@ predict 'Price' based on other dependent variable.
    - Quinlan,R. (1993). Combining Instance-Based and Model-Based Learning. In Proceedings on the Tenth International Conference of Machine Learning, 236-243, University of Massachusetts, Amherst. Morgan Kaufmann.
 ```
 
+I trained this model using Random Forest:
+
+#### The Accuracy of the model:
+
+![Alt text](https://github.com/shiv0112/boston_random_forest/blob/master/screenshots/accuracy.png)
+
+#### The comparison of Actual value and predicted value by our model
+
+![Alt text](https://github.com/shiv0112/boston_random_forest/blob/master/screenshots/compare.png)
+
 ### Index page of Website:
 
-![Alt text](https://github.com/shiv0112/boston_house_prediction/blob/master/screenshots/1.png)
-![Alt text](https://github.com/shiv0112/boston_house_prediction/blob/master/screenshots/2.png)
+![Alt text](https://github.com/shiv0112/boston_random_forest/blob/master/screenshots/1.png)
+![Alt text](https://github.com/shiv0112/boston_random_forest/blob/master/screenshots/2.png)
 
 ### Data Input from user:
 
-![Alt text](https://github.com/shiv0112/boston_house_prediction/blob/master/screenshots/3.png)
-![Alt text](https://github.com/shiv0112/boston_house_prediction/blob/master/screenshots/4.png)
+![Alt text](https://github.com/shiv0112/boston_random_forest/blob/master/screenshots/3.png)
+![Alt text](https://github.com/shiv0112/boston_random_forest/blob/master/screenshots/4.png)
 
 ## Finally prediction displayed:
 
-![Alt text](https://github.com/shiv0112/boston_house_prediction/blob/master/screenshots/final.png)
+![Alt text](https://github.com/shiv0112/boston_random_forest/blob/master/screenshots/final.png)
 
 ### What I learnt from this project:
 
--->How to build an end to end project on Machine Learning
+-->How to use a Random Forest model for regression problems
 
--->What is the folder structure of a project
-
--->How to make frontend using Flask framework
+-->Accuracy difference between linear regression and random forest regressor

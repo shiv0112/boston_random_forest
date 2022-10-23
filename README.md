@@ -5,8 +5,6 @@ Project Description 📄
 ❄️ Built a Random Forest Regressor model using scikit learn in boston data to
 predict 'Price' based on other dependent variable.
 
-#### Deployed Project Link: https://boston-random-forest.herokuapp.com/
-
 ##### Jupyter Notebook: (https://github.com/shiv0112/boston_random_forest/blob/master/notebooks/boston_rndm_forest.ipynb)
 
 ## Data:
